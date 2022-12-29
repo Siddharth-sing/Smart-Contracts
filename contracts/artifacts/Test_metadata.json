@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "product",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PureViewFunction.sol": "Test"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PureViewFunction.sol": {
+			"keccak256": "0x8d476ac6c486ec0094b5106a23aef300576cb6c8843f59e210d70ff8cf62eb93",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://910bc8524dcd8153fc32290651bda07d42b54f33e4209912e0c67c88e914ad90",
+				"dweb:/ipfs/Qmb5Pez58grQ9Ne6MTfbb5ttRSnxo92ktw1aZczbx2j6Y9"
+			]
+		}
+	},
+	"version": 1
+}

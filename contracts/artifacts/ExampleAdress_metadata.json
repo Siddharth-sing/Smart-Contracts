@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addressOfSomeSM",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalanceOfTheAddress",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_someaddress",
+						"type": "address"
+					}
+				],
+				"name": "setSomeaddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleAdress.sol": "ExampleAdress"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleAdress.sol": {
+			"keccak256": "0x3b9ed628cb5c21fb2b8799055cd1d0ca4fa3fe8b24154a100dc1ee1e96c9cf0d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b96197211ffb99ecb54d8e3cc31412226a259e0be02b5507d6c2ef0f6d2ea560",
+				"dweb:/ipfs/QmUMeDB8JSeqAJjX4PktKn83rVvgoE24tRCiwuWU42LSzZ"
+			]
+		},
+		"prb-math/contracts/PRBMath.sol": {
+			"keccak256": "0xed164c95012964f5e125b5d2b2d00471a4bdee4def618cd1fcf341d196011b61",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://3ba3ad78675323279adfc09038eaa14f4cde3f3173e5d2d60b9c30bf7099aa7b",
+				"dweb:/ipfs/QmV56KGJZQG681hwd7JQDv3KjAa9JSGF88ShGx8YBCuvcR"
+			]
+		},
+		"prb-math/contracts/PRBMathUD60x18.sol": {
+			"keccak256": "0x2180489de7680a79844dd5ef145f800e4f68e515e0e89409242f0187dbbd657b",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://d79ea95d887792ad6922f8bdcefc21bc2949b7438784f16276917160c3bdf5e1",
+				"dweb:/ipfs/QmQ24reyfKuvBzJaPpqnENYNHySu4r28Yx5kJXiNGyTrhv"
+			]
+		}
+	},
+	"version": 1
+}
