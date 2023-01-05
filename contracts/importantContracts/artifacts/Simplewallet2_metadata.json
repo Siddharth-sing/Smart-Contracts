@@ -45,29 +45,69 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "ContractAddress",
+						"name": "_from",
 						"type": "address"
-					}
-				],
-				"name": "getAccountBalance",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_depositNum",
 						"type": "uint256"
+					}
+				],
+				"name": "showThisDepositDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "amount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timeStamp",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Simplewallet2.Transaction",
+						"name": "",
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBalanceofSmartContract",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_withdrawalNum",
 						"type": "uint256"
+					}
+				],
+				"name": "showThisWithdrawalDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "amount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timeStamp",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Simplewallet2.Transaction",
+						"name": "",
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
@@ -120,11 +160,11 @@
 	},
 	"sources": {
 		"contracts/importantContracts/SimpleWallet2.sol": {
-			"keccak256": "0x4e2f38ee4ba6de8f350d12fde77c5fb2f0512545f6d02f86426a539f5098acd9",
+			"keccak256": "0x1b53bade374d30bd5dacb7f7e0d8df3afcc37a91e5b742b9036b65d03d139527",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4afab3c5b5496d90f7ab49bcbd89c925518d219bcbba743539fa62b53395f959",
-				"dweb:/ipfs/QmXEFL1avD1Qk5xA9jNWFyGxCwVTUUKNyNAyePP13s7eXy"
+				"bzz-raw://ce0056834d81f99d89630beb0b0236b540c18f30ca5928fcefd4f2ac66ddb9bb",
+				"dweb:/ipfs/QmXZQDFk3oRRKgQjFy7MgVm424g6CQKmKLup3Yp1gSsTvu"
 			]
 		}
 	},
