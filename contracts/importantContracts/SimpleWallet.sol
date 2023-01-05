@@ -22,6 +22,4 @@ contract simpleWallet{
     function getAccountBalance(address ContractAddress) public view returns(uint){
         return ContractAddress.balance;  //ContractAddress.balance will return the balance of the account. 
     }
-
-
 }
