@@ -42,14 +42,12 @@ contract Simplewallet2{
 
     function withdrawFromContractWallet(address payable _to, uint _amount) public{
         
-        if(_amount < balanceRecieved[msg.sender].totalBalance){
+        if(_amount <= balanceRecieved[msg.sender].totalBalance){
             Transaction memory thisWithdrawalTransaction = Transaction(_amount,block.timestamp);
             balanceRecieved[msg.sender].numsWithdrawals++;
             balanceRecieved[msg.sender].withdrawals[balanceRecieved[msg.sender].numsWithdrawals] = thisWithdrawalTransaction;
             balanceRecieved[msg.sender].totalBalance -= _amount;
             _to.transfer(_amount);
-        }else{
-           
         }
         
         

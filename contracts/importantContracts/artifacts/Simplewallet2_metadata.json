@@ -160,11 +160,11 @@
 	},
 	"sources": {
 		"contracts/importantContracts/SimpleWallet2.sol": {
-			"keccak256": "0x1b53bade374d30bd5dacb7f7e0d8df3afcc37a91e5b742b9036b65d03d139527",
+			"keccak256": "0xbeb7e41821e125e3c7251ed0b40a183b7dfb36c92e2dc3f78baee5daab83ea72",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ce0056834d81f99d89630beb0b0236b540c18f30ca5928fcefd4f2ac66ddb9bb",
-				"dweb:/ipfs/QmXZQDFk3oRRKgQjFy7MgVm424g6CQKmKLup3Yp1gSsTvu"
+				"bzz-raw://e6ee11ba0af2c2d8f97aed2a05f8c185a6b98165d80307076c1acdf8f62558e2",
+				"dweb:/ipfs/QmfZn2cP8TXjEAq5Z69JkxdovgnKGchfj97zukmQyLdHfS"
 			]
 		}
 	},
