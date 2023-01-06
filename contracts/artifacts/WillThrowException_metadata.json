@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ProblematicFunc1",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ProblematicFunc2",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleTryCatch.sol": "WillThrowException"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleTryCatch.sol": {
+			"keccak256": "0xa1be2c8f0790cb46ec353bca061e13c7117d4531c2cf0b134aff4ed901202686",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d0734693b286895e2bd728eb9532697dd73e1fc93aa260965cf45b22b607fad2",
+				"dweb:/ipfs/Qmf6ttFytadSeNWQMurRahatYnvAZTe7YHkfJmGi8QYkYt"
+			]
+		}
+	},
+	"version": 1
+}

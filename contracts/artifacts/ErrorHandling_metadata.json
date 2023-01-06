@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "reason",
+						"type": "string"
+					}
+				],
+				"name": "ErrorLog",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "eCode",
+						"type": "uint256"
+					}
+				],
+				"name": "ErrorLog2",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "catchError",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleTryCatch.sol": "ErrorHandling"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleTryCatch.sol": {
+			"keccak256": "0xa1be2c8f0790cb46ec353bca061e13c7117d4531c2cf0b134aff4ed901202686",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d0734693b286895e2bd728eb9532697dd73e1fc93aa260965cf45b22b607fad2",
+				"dweb:/ipfs/Qmf6ttFytadSeNWQMurRahatYnvAZTe7YHkfJmGi8QYkYt"
+			]
+		}
+	},
+	"version": 1
+}
