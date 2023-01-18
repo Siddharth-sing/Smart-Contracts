@@ -11,6 +11,57 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					}
+				],
+				"name": "denySending",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isAllowedToSend",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -21,6 +72,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setAllowance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -50,6 +119,19 @@
 					}
 				],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "walletBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -85,11 +167,11 @@
 	},
 	"sources": {
 		"contracts/importantContracts/WalletFinal.sol": {
-			"keccak256": "0x00ce8c382403ae262b5191dd37ddc8f84df5ad2c6e46d7d96283c7e498709f0a",
+			"keccak256": "0x8005857acd29228239764c18be14361c355a0a8a6281bd634fd7dbc1c7626c34",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5316b689d0293600bb7d08a29a385963d041092dd5526c9b79f89974dd0a8e26",
-				"dweb:/ipfs/QmZ4b5WNbKfbAzDT6MjMdKkp3rBwBCRr7oxoFFoaJTn5PA"
+				"bzz-raw://1d5ed2ebb2f88912193ad3f87a752476d6f1bbcdd0f1f4206be314d4d15e833f",
+				"dweb:/ipfs/QmS683wshDyUEYgFT2wpysuAsCHrdMaDK27rP6FXq2R9An"
 			]
 		}
 	},

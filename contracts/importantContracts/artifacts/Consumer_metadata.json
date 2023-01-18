@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalanceOfConsumeer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/importantContracts/WalletFinal.sol": "Consumer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/importantContracts/WalletFinal.sol": {
+			"keccak256": "0x8005857acd29228239764c18be14361c355a0a8a6281bd634fd7dbc1c7626c34",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1d5ed2ebb2f88912193ad3f87a752476d6f1bbcdd0f1f4206be314d4d15e833f",
+				"dweb:/ipfs/QmS683wshDyUEYgFT2wpysuAsCHrdMaDK27rP6FXq2R9An"
+			]
+		}
+	},
+	"version": 1
+}
