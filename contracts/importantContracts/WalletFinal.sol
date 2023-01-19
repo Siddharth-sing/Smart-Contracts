@@ -32,7 +32,7 @@ contract WalletFinal{
             votesRecieved = 0;
         }
         votesRecieved++;
-        isVotedAlready[msg.sender] = true;
+        isVotedAlready[_newOwnerAddress][msg.sender] = true;
         if(votesRecieved >= votesNeededForNewOwner){
             owner = nextOwner;
             nextOwner = payable(address(0));               
