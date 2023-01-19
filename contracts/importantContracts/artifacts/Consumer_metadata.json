@@ -7,13 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "getBalanceOfConsumeer",
 				"outputs": [
 					{
@@ -24,6 +17,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -54,11 +51,11 @@
 	},
 	"sources": {
 		"contracts/importantContracts/WalletFinal.sol": {
-			"keccak256": "0x4518a16c07285a840296c99ea5b40d4a42c8e230eb2f6ffe94b7705b09672d8d",
+			"keccak256": "0xb250166032636dc426c49b2523ba8cdafecba02cff452d0169eefcb316be0431",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://406d6af78fdefb4a308ede91a656826e4303504f5fe5d8d0bb10fe44d2bab635",
-				"dweb:/ipfs/QmSchLaWSgo36wg3EFpsgz4j6cCg4Mwkmgo24x2RAMwgsv"
+				"bzz-raw://e607f7fc51c2adb2f9720c5119d46c1e4673d1959df4958994755f7f721e4235",
+				"dweb:/ipfs/QmUr7r8K52PY6x7jQ3u7YdPdpaHTZP4RUMp165kuy7PiV6"
 			]
 		}
 	},
