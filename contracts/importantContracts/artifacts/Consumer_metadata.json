@@ -51,11 +51,11 @@
 	},
 	"sources": {
 		"contracts/importantContracts/WalletFinal.sol": {
-			"keccak256": "0xb250166032636dc426c49b2523ba8cdafecba02cff452d0169eefcb316be0431",
+			"keccak256": "0x19a906ad9a1a9db49fd067b82b99d88d9f3823568025244df963a3588e182e71",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e607f7fc51c2adb2f9720c5119d46c1e4673d1959df4958994755f7f721e4235",
-				"dweb:/ipfs/QmUr7r8K52PY6x7jQ3u7YdPdpaHTZP4RUMp165kuy7PiV6"
+				"bzz-raw://42d3a10df96cc9fe991101525a81ccb8151f5ace77815ab630c0d352d74e7abc",
+				"dweb:/ipfs/QmVT4fMjuPzAdvWHbZjonz1uk6Vd5dPc7Wew7H7WdoNVqf"
 			]
 		}
 	},

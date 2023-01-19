@@ -14,13 +14,38 @@ contract WalletFinal{
     address payable public owner;
     mapping(address => bool) public isAllowedToSend;
     mapping(address => uint) public allowance;
-
+    mapping(address => bool) public isGuardian;
+    mapping(address => mapping(address => bool)) public isVotedAlready;
+    address payable public nextOwner;
+    uint public constant votesNeededForNewOwner = 3; 
+    uint public votesRecieved;
     constructor(){
         owner = payable(msg.sender) ;
     }
-    
+   
+    //Task - 5
+    function newOwnerVoting(address payable _newOwnerAddress) public {
+        require(isGuardian[msg.sender],"You are not a guardian! Not allowed to vote.");
+        require(!isVotedAlready[_newOwnerAddress][msg.sender],"You already voted!");
+        if(nextOwner != _newOwnerAddress){
+            nextOwner = _newOwnerAddress;
+            votesRecieved = 0;
+        }
+        votesRecieved++;
+        isVotedAlready[msg.sender] = true;
+        if(votesRecieved >= votesNeededForNewOwner){
+            owner = nextOwner;
+            nextOwner = payable(address(0));               
+        }
+        
+    }
+    function setGuardian(address _guardAddress, bool _isGuardian) public {
+        require(msg.sender == owner, "You are not allowed to set guardians.");
+        isGuardian[_guardAddress] = _isGuardian;
+    }
+
     // Task - 4
-    function setAllowance(address _from, uint _amount) public{
+    function setAllowance(address _from, uint _amount) public {
         require(msg.sender == owner, "You are not allowed to set allowance.");
         allowance[_from] = _amount;
         isAllowedToSend[_from] = true;
