@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_uint",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/understanding_abi.sol": "AbiUnderstandContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/understanding_abi.sol": {
+			"keccak256": "0xf526e1d3cb9d9db7bf2522bce9d8d5462b3037552d54e2c981727ede3791a24a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://50ee2924ef1f55bf13d948ddfe4b3c82f10eef9edb15371b24391e97bc3a1baa",
+				"dweb:/ipfs/QmUCyW5LJKVjetmymYhoDW13b4VChhh8fwjiobNnjjwoNG"
+			]
+		}
+	},
+	"version": 1
+}
