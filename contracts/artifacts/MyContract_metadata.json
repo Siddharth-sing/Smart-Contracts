@@ -1,18 +1,29 @@
 {
 	"compiler": {
-		"version": "0.8.14+commit.80d49f37"
+		"version": "0.8.16+commit.07a7930e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "ourstring",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -21,12 +32,36 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_updateString",
-						"type": "string"
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
 					}
 				],
-				"name": "updateString",
+				"name": "someCrypticFunctionName",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyContract.sol": "MyContract"
+			"contracts/VerifyingOnEtherscan.sol": "MyContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyContract.sol": {
-			"keccak256": "0xf6b393be455d532a9b6d7a33beb02842e95ce9ead7e01f581f85500c3c8ea17f",
+		"contracts/VerifyingOnEtherscan.sol": {
+			"keccak256": "0xc51d65ea595dfe807331b4bbf67fd49135d0c87df670bcff07ac6ac360aebda0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d09aaf7f37d85b003b71c19e0f5d08f44b338c9a0c707b1fbbec67ac33337bd4",
-				"dweb:/ipfs/QmVHKk8aZvMXCVgQpwCMFYPk2qPRuoD1SGKwY4Z7N1ZsVe"
+				"bzz-raw://3581cbe1c33fd96e659ff225f5e99e016023b1f0ed12d198d74691466be4c372",
+				"dweb:/ipfs/QmRoF2N2H3W83MH8Qj3sj9QakSErZ52rqMkv1NFJhx1PoH"
 			]
 		}
 	},
